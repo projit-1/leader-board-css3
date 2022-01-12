@@ -39,7 +39,7 @@ hr{ border: 1px solid #D1D1D1;}
 
 /* Sectio latest-courses */
 .latest-courses{ width: 870px ;}
-.courses{display: flex;}
+.courses{display: grid; grid-template-columns: repeat(3, 1fr); grid-column-gap: 24px; }
 .course-info{ display: flex; flex-direction: column;}
 
 .course-info .course-title img{ width: 224px; 
