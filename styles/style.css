@@ -73,6 +73,7 @@ hr{ border: 1px solid #D1D1D1;}
 
     /* meida-quaries */
     @media only screen and (max-width: 688px){
+       .navbar{width: 100%;}
         .container{width: 100%;}
         .latest-courses{width: 100%;}
         .players, .blog, .courses{ grid-template-columns: repeat(1, 1fr);}
@@ -80,11 +81,14 @@ hr{ border: 1px solid #D1D1D1;}
 
         /* tablate-media */
         @media  only screen and (min-width: 688px) and (max-width: 992px){
+
+           .navbar{width: 100%;}
             .container{width: 100%;}
             .latest-courses{width: 100%;}
             .players, .blog, .courses{ grid-template-columns: repeat(2, 1fr);}
-            .player, .blog{ flex-direction: column} ;}
+            .player, .blog{ flex-direction: column}
+             ;}
             
-        }
+        
         
     
